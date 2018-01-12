@@ -12,7 +12,7 @@ class XhSpider(scrapy.Spider):
     # 允许访问的域
     allowed_domains = ["xiaohuar.com"]
     # 初始URL
-    start_url = ['http://www.xiaohuar.com/hua/']
+    start_urls = ['http://www.xiaohuar.com/hua/']
     # 设置一个空集合
     url_set = set()
 
